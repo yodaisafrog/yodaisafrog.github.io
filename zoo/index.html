@@ -5,12 +5,63 @@
     <script src="../validate.js"></script>
 <link rel="stylesheet" href="styles.css">
 <style>
-#link{
-display:flex;
+#ul{
+    display:flex;
+    list-style-type: none ;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+#indexlink{
 flex-direction: row;
 align-items: flex-start;
-background
+padding:10px;
 border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+}
+#indexlink:hover{
+background-color:gold;
+}
+#animallink{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#animallink:hover{
+background-color:gold;
+}
+#fundraiser{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#fundraiser:hover{
+background-color:gold;
+}
+#contactus{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#contactus:hover{
+background-color:gold;
 }
 </style>
 </head>
@@ -18,10 +69,12 @@ border: 2px solid black;
         <h1 class="big orange">Welcome to the City Zoo</h1>
         <p id="six-seven">Explore the wonders of wildlife at the City Zoo!</p>
     </header>
-    <nav id="link">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="orange"><a href="animals.html">Animals</a></li>
+    <nav>
+        <ul id=ul>
+            <li id=indexlink><a href="index.html">Home</a></li>
+            <li id=animallink><a href="animals.html">Animals</a></li>
+            <li id=fundraiser><a href="#">Fundraiser</a></li>
+            <li id=contactus><a href="#">Contact us</a></li>
         </ul>
     </nav>
     <main>

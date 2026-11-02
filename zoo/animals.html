@@ -3,19 +3,83 @@
 <head>
     <title>Animal Exhibits</title>
     <script src="../../validate.js"></script>
+    <style>
+table, tr, th, td{
+border: 2px black solid;
+border-collapse: collapse;
+}
+#ul{
+    display:flex;
+    list-style-type: none ;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+#indexlink{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+}
+#indexlink:hover{
+background-color:gold;
+}
+#animallink{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#animallink:hover{
+background-color:gold;
+}
+#fundraiser{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#fundraiser:hover{
+background-color:gold;
+}
+#contactus{
+flex-direction: row;
+align-items: flex-start;
+padding:10px;
+border: 2px solid black;
+height:20px;
+width:70px;
+background-color:red;
+
+}
+#contactus:hover{
+background-color:gold;
+}
+</style>
 </head>
-<body>
-    <header>
-        <h1>Explore Our Animal Exhibits</h1>
-        <p>Meet the amazing animals that call our zoo home!</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="animals.html">Animals</a></li>
+<header>
+    <h1>Explore Our Animal Exhibits</h1>
+    <p>Meet the amazing animals that call our zoo home!</p>
+</header>
+        <nav>
+        <ul id=ul>
+            <li id=indexlink><a href="index.html">Home</a></li>
+            <li id=animallink><a href="animals.html">Animals</a></li>
+            <li id=fundraiser><a href="#">Fundraiser</a></li>
+            <li id=contactus><a href="#">Contact us</a></li>
         </ul>
     </nav>
-    <main>
         <section>
             <h2>Animal Exhibits</h2>
             <p>Our exhibits showcase animals from different regions of the world. Take a look at the details:</p>
