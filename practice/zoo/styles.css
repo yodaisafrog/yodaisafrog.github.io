@@ -1,0 +1,20 @@
+body{
+    background-color:LemonChiffon;
+}
+
+table, th, tr, td{
+    border: 2px navy solid;
+    border-collapse: collapse;
+}
+
+.big{
+    font-size: 2em;
+}
+
+.orange{
+
+}
+
+#six-seven{
+    font-size:0.67em;
+}
