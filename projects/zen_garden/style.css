@@ -29,10 +29,25 @@ body{
 .menu-item:focus-within .submenu {
     display: block;
 }
-
-    #disclamier{
-        background-color:red;
-    }
-    #disclamier::before{
-        content:"like I was talking about before";
-    }
+#utility-nav{
+    display:flex;
+    list-style-type: none ;
+    padding: 2;
+    margin: 2;
+    justify-content: space-around;
+}
+#Contactus:hover{
+    background-color:red;
+}
+#Calendars:hover{
+    background-color:red;
+}
+#Careers:hover{
+    background-color:red;
+}#EngagewithAPS:hover{
+    background-color:red;
+}#District:hover{
+    background-color:red;
+}#Crisishelp:hover{
+    background-color:red;
+}
