@@ -1,7 +1,38 @@
 /*
   ITD110 Zen Garden Project
-  Your name:
-  Your design concept (one sentence):
+  Your name: Ryan Anderson
+  Your design concept (one sentence):Sunrise vibe
 
   All of your CSS goes in this file.
 */
+
+body{
+    font-family: "Atkinson Hyperlegible" ,Ariel;
+}
+    header {
+           background: #fda403;
+    }
+ 
+    body {
+            background: #e8751a;
+    }
+ 
+    footer {
+            background: #c51350;
+    }
+
+    .submenu {
+    display: none;
+}
+
+.menu-item:hover .submenu,
+.menu-item:focus-within .submenu {
+    display: block;
+}
+
+    #disclamier{
+        background-color:red;
+    }
+    #disclamier::before{
+        content:"like I was talking about before";
+    }
