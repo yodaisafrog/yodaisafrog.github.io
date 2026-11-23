@@ -32,22 +32,92 @@ body{
 #utility-nav{
     display:flex;
     list-style-type: none ;
-    padding: 2;
-    margin: 2;
+    padding: 0;
+    margin: 0;
     justify-content: space-around;
 }
-#Contactus:hover{
+#Contactus{
+    flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
+    #Contactus:hover{
     background-color:red;
 }
+
+#Calendars{
+  flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
 #Calendars:hover{
     background-color:red;
 }
+
+#Careers{
+  flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
 #Careers:hover{
     background-color:red;
-}#EngagewithAPS:hover{
-    background-color:red;
-}#District:hover{
-    background-color:red;
-}#Crisishelp:hover{
+}
+
+#EngagewithAPS{
+  flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
+#EngagewithAPS:hover{
     background-color:red;
 }
+
+#District{
+  flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
+#District:hover{
+    background-color:red;
+}
+
+#Crisishelp{
+  flex-direction: row;
+    align-items: flex start;
+    padding:10px;
+    border: 2px solid black;
+    height:40px;
+    width:70px;
+    background-color:white;
+}
+
+#Crisishelp:hover{
+    background-color:red;
+}
+/* All of the hover commands, I added a id inside the main website*/
+
