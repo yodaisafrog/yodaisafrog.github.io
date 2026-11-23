@@ -20,9 +20,23 @@ body{
     display: block;
 }
 
-img{
+/*styling image background colors*/
+
+#branding{
     background-color:yellow;
+    height:200px;
+    width: 1000px;
 }
+
+#StudentVue{
+    background-color:green
+}
+
+#Canvas{
+    background-color:red;
+}
+
+/*end of styling images, I added some divs between images with an id so I can style them*/
 
 /*Start of code for links*/
 
